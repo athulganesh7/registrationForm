@@ -113,7 +113,7 @@ function App() {
           {/* button group */}
           <ButtonGroup className='mt-3 d-flex justify-content-center' disableElevation variant="contained" aria-label="Disabled button group">
             <Button onClick={modalShow} className='bg-primary'>Submit</Button>
-            <Button onClick={resetButton} className='bg-danger'>Cancel</Button>
+            <Button onClick={resetButton} className='bg-danger'>Reset</Button>
           </ButtonGroup>
         </form>
 
